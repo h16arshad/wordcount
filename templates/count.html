@@ -1,0 +1,15 @@
+<h1>There are {{ count}} words</h1>
+<h1> your Text :</h1>
+{{ pass }}
+<h1> word count </h1>
+
+ {% for word,counttotal in sortedwords  %}
+{{ word }}
+
+<br/>
+
+{{ counttotal }}
+<br/>
+ {% endfor %}
+
+ 
